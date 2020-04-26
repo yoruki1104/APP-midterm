@@ -1,0 +1,36 @@
+{
+    "menuTitle": "鮮奶茶",
+
+    "menuList": [
+       {
+          "name": "珍珠奶茶",
+          "price": "NT $55",
+          "image": "https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/img_milktea1.png?raw=true"
+
+          
+       },
+       {
+        "name": "珍珠奶綠",
+        "price": "NT $55",
+        "image": "https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/img_milktea2.png?raw=true"
+        
+     },
+       {
+          "name": "仙草凍奶茶",
+          "price": "NT $55",
+          "image": "https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/img_milktea3.png?raw=true"
+          
+       },
+       {
+        "name": "抹茶拿鐵",
+        "price": "NT $60",
+        "image": "https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/img_milktea4.png?raw=true"
+        
+     },
+     {
+        "name": "珍珠紅茶拿鐵",
+        "price": "NT $65",
+        "image": "https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/img_milktea5.png?raw=true"
+        
+     }
+ ]}

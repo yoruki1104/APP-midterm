@@ -1,0 +1,38 @@
+{
+    "menuTitle": "季節限定",
+
+
+    "menuList": [
+       {
+          "name": "莓好時光",
+          "price": "NT $55",
+          "image": "https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/img_season1.png?raw=true"
+          
+       },
+       {
+        "name": "番茄梅",
+        "price": "NT $40",
+        "image": "https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/img_season2.png?raw=true"
+        
+     },
+       {
+          "name": "芭樂檸檬",
+          "price": "NT $40",
+          "image": "https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/img_season3.png?raw=true"
+        
+       },
+       {
+        "name": "酪梨布丁鮮奶",
+        "price": "NT $65",
+        "image": "https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/img_season4.png?raw=true"
+      
+        
+     },
+     {
+        "name": "芋頭鮮奶",
+        "price": "NT $55",
+        "image": "https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/img_season5.png?raw=true"
+       
+        
+     }
+ ]}

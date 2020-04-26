@@ -1,0 +1,10 @@
+{
+    "M-btn-selected": "https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/btn_M-selected.png?raw=true",
+    "M-btn-unselected": "https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/btn_M-unselected.png?raw=true",
+    "L-btn-selected": "https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/btn_L-selected.png?raw=true",
+    "L-btn-unselected": "https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/btn_L-unselected.png?raw=true",
+    "add-btn":"https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/btn-add.png?raw=true",
+    "shopping-cart":"https://github.com/yoruki1104/APP-midterm/blob/master/img/icon-header/icon_shopping_cart.png?raw=true" ,
+    "logo":"https://raw.githubusercontent.com/yoruki1104/APP-midterm/master/img/icon-header/icon_logo.png",
+    "back":"https://github.com/yoruki1104/APP-midterm/blob/master/img/icon-header/btn_back.png?raw=true"
+}

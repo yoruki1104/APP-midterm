@@ -1,0 +1,41 @@
+{
+   "menuTitle": "原茶",
+  
+   "menuList": [
+      {
+         "id": "faj2132",
+         "name": "伯爵紅茶",
+         "price": "NT $35",
+         "image": "https://raw.githubusercontent.com/yoruki1104/APP-midterm/master/img/img-menu/img_tea1.png"
+        
+      },
+      {
+         "id": "dfsf2213",
+         "name": "茉香綠茶",
+         "price": "NT $30",
+         "image": "https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/img_tea2.png?raw=true"
+        
+      },
+      {
+         "id": "fgfg1231",
+         "name": "高峰烏龍茶",
+         "price": "NT $30",
+         "image": "https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/img_tea3.png?raw=true"
+        
+      },
+      {
+         "id": "kiuku231",
+         "name": "決明大麥",
+         "price": "NT $25",
+         "image": "https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/img_tea4.png?raw=true"
+        
+      },
+      {
+         "id": "cvxv2133",
+         "name": "初露青茶",
+         "price": "NT $30",
+         "image": "https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/img_tea5.png?raw=true"
+        
+      }
+   ]
+}

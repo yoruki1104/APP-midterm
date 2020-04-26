@@ -1,0 +1,35 @@
+{
+    "menuTitle": "特調",
+ 
+    "menuList": [
+       {
+          "name": "養樂多綠茶",
+          "price": "NT $45",
+          "image": "https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/img_flavor1.png?raw=true"
+
+          
+       },
+       {
+        "name": "甘蔗青茶",
+        "price": "NT $45",
+        "image": "https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/img_flavor2.png?raw=true"
+        
+     },
+       {
+          "name": "冰萃檸檬",
+          "price": "NT $40",
+          "image": "https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/img_flavor3.png?raw=true"
+       },
+       {
+        "name": "冰糖洛神梅",
+        "price": "NT $35",
+        "image": "https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/img_flavor4.png?raw=true"
+        
+     },
+     {
+        "name": "柳丁綠茶",
+        "price": "NT $35",
+        "image": "https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/img_flavor5.png?raw=true"
+        
+     }
+ ]}
