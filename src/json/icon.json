@@ -6,5 +6,23 @@
     "add-btn":"https://github.com/yoruki1104/APP-midterm/blob/master/img/img-menu/btn-add.png?raw=true",
     "shopping-cart":"https://github.com/yoruki1104/APP-midterm/blob/master/img/icon-header/icon_shopping_cart.png?raw=true" ,
     "logo":"https://raw.githubusercontent.com/yoruki1104/APP-midterm/master/img/icon-header/icon_logo.png",
-    "back":"https://github.com/yoruki1104/APP-midterm/blob/master/img/icon-header/btn_back.png?raw=true"
+    "back":"https://github.com/yoruki1104/APP-midterm/blob/master/img/icon-header/btn_back.png?raw=true",
+
+    "change":"https://github.com/ciel0412/mid/blob/master/img/img_change.png?raw=true",
+    "assignment":"https://github.com/ciel0412/mid/blob/master/img/baseline_assignment_ind_black_18dp(%E7%99%BD).png?raw=true",
+   
+
+    "mail":"https://raw.githubusercontent.com/ntue110719041/mid/master/img/email-black-18dp.png",
+    "personal":"https://raw.githubusercontent.com/ntue110719041/mid/master/img/baseline_account_circle_black_18dp(%E6%A3%95).png",
+    "mycard":"https://raw.githubusercontent.com/ntue110719041/mid/master/img/baseline_account_box_black_18dp(%E6%A3%95).png",
+    "arrow":"https://raw.githubusercontent.com/ntue110719041/mid/master/img/keyboard_arrow_right-black-18dp.png",
+    "ticket":"https://raw.githubusercontent.com/ntue110719041/mid/master/img/baseline_local_activity_black_18dp(%E6%A3%95).png",
+    "receipt":"https://raw.githubusercontent.com/ntue110719041/mid/master/img/baseline_ballot_black_18dp(%E6%A3%95).png",
+    "setting":"https://raw.githubusercontent.com/ntue110719041/mid/master/img/baseline_settings_black_18dp(%E6%A3%95).png",
+    "phone":"https://raw.githubusercontent.com/ntue110719041/mid/master/img/baseline_local_phone_black_18dp(%E6%A3%95).png",
+    "logout":"https://raw.githubusercontent.com/ntue110719041/mid/master/img/baseline_directions_run_black_18dp(%E6%A3%95).png",
+
+    "search":"https://raw.githubusercontent.com/ntue110719041/mid/master/img/search-black-24dp%201.png",
+    "shop":"https://raw.githubusercontent.com/ntue110719041/mid/master/img/store-24px%201.png",
+    "information":"https://raw.githubusercontent.com/ntue110719041/mid/master/img/info-24px%201.png"
 }

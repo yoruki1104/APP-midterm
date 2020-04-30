@@ -17,10 +17,10 @@ const MenuScreen = ({ album, navigation }) => {
                 <View style={styles.headerMiddle}>
                     <Text  style={styles.titleStyle}>菜單</Text>
                 </View>
-                <View style={styles.headerRight}>
+                <TouchableOpacity style={styles.headerRight}>
                      <Image source={{uri:icon["shopping-cart"] }}
                       style={{width: 24, height: 24}}/>
-                </View>
+                </TouchableOpacity>
                
                
             </View>

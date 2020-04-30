@@ -18,8 +18,14 @@ const DrinkDetail = ({ drink, navigation }) => {
            <View  style={styles.midSecStyle}>
             <Text style={{color:"#40230D"}}>{drink.name}</Text>
             <View  style={styles.sizeBtnContainerStyle}>
-               <Image source={{uri:icon["M-btn-selected"]}}  style={styles.sizeBtn}/>
-               <Image source={{uri:icon["L-btn-unselected"]}}  style={styles.sizeBtn}/>
+              <TouchableOpacity>
+                  <Image source={{uri:icon["M-btn-selected"]}}  style={styles.sizeBtn}/>
+              </TouchableOpacity>
+              <TouchableOpacity>
+                  <Image source={{uri:icon["L-btn-unselected"]}}  style={styles.sizeBtn}/>
+              </TouchableOpacity>
+              
+              
             </View>
            </View>
            <View  style={styles.leftSecStyle}>

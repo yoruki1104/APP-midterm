@@ -11,7 +11,7 @@ const MilkTeaScreen = ({ navigation }) => {
         <View style={styles.headerContentStyle}>
                 <View  style={styles.headerLeft}>
                 <TouchableOpacity
-                     onPress={() => navigation.navigate('Menu')}>
+                     onPress={() => navigation.navigate('菜單')}>
                     <Image source={{uri:icon.back}}
                      style={{width: 24, height: 24}}/>
                 </TouchableOpacity>    
@@ -19,10 +19,10 @@ const MilkTeaScreen = ({ navigation }) => {
                 <View style={styles.headerMiddle}>
                     <Text  style={styles.titleStyle}>{seasonList.menuTitle}</Text>
                 </View>
-                <View style={styles.headerRight}>
+                <TouchableOpacity style={styles.headerRight}>
                      <Image source={{uri:icon["shopping-cart"]}}
                       style={{width: 24, height: 24}}/>
-                </View>
+                </TouchableOpacity>
                
                
         </View>

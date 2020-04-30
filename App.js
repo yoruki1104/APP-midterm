@@ -2,18 +2,15 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import Ionicons from 'react-native-vector-icons/Ionicons';
 import { Image, View } from 'react-native';
 import TeaScreen from './src/screens/TeaScreen'; 
 import MilkTeaScreen from './src/screens/MilkTeaScreen'; 
 import FlavorScreen from './src/screens/FlavorScreen'; 
 import SeasonScreen from './src/screens/SeasonScreen'; 
-import AlbumScreen from './src/screens/AlbumScreen';
-import DetailScreen from './src/screens/DetailScreen';
-import SettingsScreen from './src/screens/SettingsScreen';
-import MeScreen from './src/screens/MeScreen';
-import albumData from "./src/json/albums.json";
+import MemberScreen from './src/screens/MemberScreen';
+import StoreScreen from './src/screens/StoreScreen';
 import MenuScreen from './src/screens/MenuScreen';
+import HomeScreen from './src/screens/HomeScreen';
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -69,20 +66,21 @@ const App = () => {
           },
         }}
       >
-        <Tab.Screen name="首頁" component={AlbumStack} />
-        <Tab.Screen name="菜單" component={MenuScreen} />
-        <Tab.Screen name="門市" component={MeScreen} />
-        <Tab.Screen name="會員" component={SettingsScreen} />
+        <Tab.Screen name="首頁" component={HomeScreen} />
+        <Tab.Screen name="菜單" component={MenuStack} />
+        <Tab.Screen name="門市" component={StoreScreen} />
+        <Tab.Screen name="會員" component={MemberScreen} />
         
       </Tab.Navigator>
     </NavigationContainer>
   );
 }
-const AlbumStack = () => {
+const MenuStack = () => {
   return (
    <Stack.Navigator>
+     
         <Stack.Screen 
-          name="Menu" 
+          name="菜單" 
           component={MenuScreen} 
           options={{
           
