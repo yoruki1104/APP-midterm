@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import { StyleSheet, Text, View,Image,TouchableOpacity,FlatList,ScrollView, ImageBackground } from 'react-native';
+import { StyleSheet, Text, View,Image,TouchableOpacity,FlatList,ScrollView, ImageBackground,Alert,ToastAndroid,Linking } from 'react-native';
 import icon from"../json/icon.json"
 //import homelist from"../homelist.json";
 
@@ -15,7 +15,13 @@ const HomeScreen = ({navigation})=>{
         <View style={styles.headerMiddle}>
         <Text style={styles.titleStyle}>首頁</Text>
       </View>
-      <TouchableOpacity style={styles.headerRight}>
+      <TouchableOpacity style={styles.headerRight}
+      onPress={()=>Alert.alert('今天就來喝杯','珍珠奶茶',[
+        {text:'不要，再重選一杯',onPress:()=>ToastAndroid.show('重新選擇',ToastAndroid.SHORT)},
+        {text:'好哇，加入購物車',onPress:()=>ToastAndroid.show('已成功加入一項商品至購物車!',ToastAndroid.SHORT)}
+    ])}
+
+      >
         <Image source={{uri:icon.change}}
         style={{width:24,height:24}}/>
       </TouchableOpacity>
@@ -29,7 +35,9 @@ const HomeScreen = ({navigation})=>{
        <ImageBackground source={{uri:"https://github.com/ciel0412/mid/blob/master/img/img_cafe-1.jpg?raw=true"}}
        style={styles.image}>
          <Text style={styles.information}>店面資訊</Text>
-         <TouchableOpacity style={styles.arrow}>
+         <TouchableOpacity style={styles.arrow}
+         onPress={()=>Linking.openURL("https://www.milkshoptea.com/about.php")}
+         >
             <Text style={styles.information_2}>了解更多 ></Text>
          </TouchableOpacity>
        </ImageBackground>  
@@ -39,7 +47,9 @@ const HomeScreen = ({navigation})=>{
           style={styles.image}>
               
             <Text style={styles.information}>最近活動</Text>
-         <TouchableOpacity style={styles.arrow}>
+         <TouchableOpacity style={styles.arrow}
+          onPress={()=>Linking.openURL("https://www.milkshoptea.com/news.php?cID=1")}
+         >
             <Text style={styles.information_2}>了解更多 ></Text>
          </TouchableOpacity>
         </ImageBackground>  
@@ -48,7 +58,9 @@ const HomeScreen = ({navigation})=>{
         <ImageBackground source={{uri:"https://github.com/ciel0412/mid/blob/master/img/img_cafe-3.jpg?raw=true"}}
           style={styles.image}>
             <Text style={styles.information}>最新飲品</Text>
-         <TouchableOpacity style={styles.arrow}>
+         <TouchableOpacity style={styles.arrow}
+          onPress={()=>Linking.openURL("https://www.milkshoptea.com/news.php?cID=2")}
+         >
              <Text style={styles.information_2}>了解更多 ></Text>
          </TouchableOpacity>
         </ImageBackground>  
